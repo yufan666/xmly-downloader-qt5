@@ -1,6 +1,8 @@
 name: QMake Build Matrix
 
 on:
+  watch:
+    types: [started]
   push:
     branches: [ master ]
     paths: 
